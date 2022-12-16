@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+html {
+  border-left: 5px;
+  border-left-style: solid;
+  border-left-color: lightgray;
+  margin: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
   min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  max-width: 1000px;
+  margin: auto;
+}
+
+header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+main {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+img {
+  width: 100%
+}
+
+
+h1 {
+  color: tomato;
+  font-size: 60px;
+  margin-top: 5;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+nav :link {
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* nav :link:visited {
+  text-decoration: none;
+} */
+
+/* Set the color for the anchors inside the main navigation to be lightgray
+and the footer navigation to be tomato. */
+.topnav  {
+  color: lightgray;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.topnav {
+  color: lightgray;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.bottomnav {
+  color: tomato;
+}
+
+#headline {
+  font-size: 35px;
+}
+
+#continue {
+  color: tomato;
+  display: flex;
+  justify-content: right;
+}
+
+article {
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray;
+  margin-bottom: 4rem;
+  padding-bottom: 2rem;
+}
+
+article p::first-letter {
+  color: gray;
+  font-size: 80px;
+  margin-right: 6px;
+  float: left;
+  line-height: 50px;
+  padding: 6px 3px;
+  margin-top: 5px;
+  ;
+}
+
+#date {
+  color: lightgray;
+}
+
+#copyright {
+  color: lightgray;
 }
