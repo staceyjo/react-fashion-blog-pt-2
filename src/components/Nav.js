@@ -1,14 +1,14 @@
-
+import { Link } from "react-router-dom"
 export default function Nav() {
     return (
         <nav className="topnav" aria-label="Main Navigation" role="navigation">
             <ul>
-                <li><a className="topnav" href="#">Women's</a></li>
-                <li><a className="topnav"href="#">Men's</a></li>
-                <li><a className="topnav"href="#">On the Street</a></li>
-                <li><a className="topnav"href="#">The Catwalk</a></li>
-                <li><a className="topnav"href="#">Ad Watch</a></li>
-                <li><a className="topnav"href="#">About</a></li>
+                <Link to="#" className="topnav" >Women's</Link>
+                <Link to="#" className="topnav" >Men's</Link>
+                <Link to="#" className="topnav" >On the Street</Link>
+                <Link to="#" className="topnav" >The Catwalk</Link>
+                <Link to="#" className="topnav" >Ad Watch</Link>
+                <Link to="#" className="topnav" >About</Link>
             </ul>
         </nav>
 

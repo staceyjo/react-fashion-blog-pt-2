@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 export default function Article() {
     return (
         <>
@@ -14,7 +15,7 @@ export default function Article() {
                         dignissimos, iste sapiente magnam dolormque. Fugit, cum, cupiditate aliquam, molltia quisquam sed nulla eveniet
                         doloribus neque optio odio qui! Id architecto impedit consequatur rem quaerat voluptatibus pariatur quas, quod
                         quisquam quo ab meolestiae.</p>
-                    <a id="continue" href="...">Continues...</a>
+                    <Link to="..." id="continue">Continues...</Link>
                 </article>
                 <article>
                     <h2 id="date">11/11/20</h2>
@@ -27,7 +28,7 @@ export default function Article() {
                         optio atque ut. Repellendus molestiae doloribus recusandae, itaque voluptatibus placeat repellat deserunt amet
                         eaque dignissimos, iste sapiente magnam doloremque. Fugit, cum, cupiditate aliquam, molltia quisquam sed nulla
                         eveniet doloribus neque optio odio qui! Id architecto impedit consequatur r</p>
-                    <a id="continue" href="...">Continues...</a>
+                    <Link to="..." id="continue">Continues...</Link>
                 </article>
             </main>
 
